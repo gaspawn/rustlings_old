@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:fix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19b71acb-5484-4c56-a12f-8d31d115ebf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rustlings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/clippy/clippy1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/clippy/clippy1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/clippy/clippy2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/clippy/clippy2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/enums/enums1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/enums/enums1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/enums/enums2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/enums/enums2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/enums/enums3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/enums/enums3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/error_handling/errors1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/error_handling/errors1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/error_handling/errors2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/error_handling/errors2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/error_handling/errors3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/error_handling/errors3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/error_handling/errorsn.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/error_handling/errorsn.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/error_handling/result1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/error_handling/result1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions5.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/if/if1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/if/if1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/macros/macros1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/macros/macros1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/macros/macros2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/macros/macros2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/macros/macros3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/macros/macros3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/macros/macros4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/macros/macros4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/modules/modules1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/modules/modules1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/modules/modules2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/modules/modules2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/move_semantics/move_semantics1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/move_semantics/move_semantics1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/move_semantics/move_semantics2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/move_semantics/move_semantics2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/move_semantics/move_semantics3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/move_semantics/move_semantics3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/move_semantics/move_semantics4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/move_semantics/move_semantics4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/option/option1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/option/option1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/option/option2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/option/option2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types5.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types6.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/standard_library_types/arc1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/standard_library_types/arc1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/standard_library_types/iterators2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/standard_library_types/iterators2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/standard_library_types/iterators3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/standard_library_types/iterators3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/standard_library_types/iterators4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/standard_library_types/iterators4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/strings/strings1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/strings/strings1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/strings/strings2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/strings/strings2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/structs/structs1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/structs/structs1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/structs/structs2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/structs/structs2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/test1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/test1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/test2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/test2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/test3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/test3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/test4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/test4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/tests/tests1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/tests/tests1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/tests/tests2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/tests/tests2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/tests/tests3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/tests/tests3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables5.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="veqqwpj2" />
+  </component>
+  <component name="ProjectId" id="1eQ6aNJYcmXjaiPyAnvCTgzOrRd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Cargo.toml" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19b71acb-5484-4c56-a12f-8d31d115ebf3" name="Default Changelist" comment="" />
+      <created>1594241531686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594241531686</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1594241610775">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1594241610775" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1594266958652">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1594266958652" />
+  </component>
+</project>
