@@ -52,8 +52,24 @@ because we want to assign a different typed value to an existing variable. Somet
 you may also like to reuse existing variable names because you are just converting
 values to different types like in this exercise.
 Fortunately Rust has a powerful solution to this problem: 'Shadowing'!
-You can read more about 'Shadowing' in the book's section 'Variables and Mutability'.
+You can read more about 'Shadowing' in the book's section 'Variables and Mutability': 
+https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html#shadowing
 Try to solve this exercise afterwards using this technique."""
+
+[[exercises]]
+name = "variables6"
+path = "exercises/variables/variables6.rs"
+mode = "compile"
+hint = """
+We know about variables and mutability, but there is another important type of 
+variable available; constants. 
+Constants are always immutable and they are declared with keyword 'const' rather 
+then keyword 'let'.
+Constants types must also always be annotated.
+
+Read more about constants under 'Differences Between Variables and Constants' in the book's section 'Variables and Mutability': 
+https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html#differences-between-variables-and-constants
+"""
 
 # IF
 
@@ -70,6 +86,15 @@ Remember in Rust that:
 - the `if` condition does not need to be surrounded by parentheses
 - `if`/`else` conditionals are expressions
 - Each condition is followed by a `{}` block."""
+
+[[exercises]]
+name = "if2"
+path = "exercises/if/if2.rs"
+mode = "test"
+hint = """
+For that first compiler error, it's important in Rust that each conditional
+block return the same type! To get the tests passing, you will need a couple
+conditions checking different input values."""
 
 # FUNCTIONS
 
@@ -124,8 +149,8 @@ They are not the same. There are two solutions:
 # TEST 1
 
 [[exercises]]
-name = "test1"
-path = "exercises/test1.rs"
+name = "quiz1"
+path = "exercises/quiz1.rs"
 mode = "test"
 hint = "No hints this time ;)"
 
@@ -199,13 +224,35 @@ Now you have another tool in your toolbox!"""
 name = "structs1"
 path = "exercises/structs/structs1.rs"
 mode = "test"
-hint = "No hints this time ;)"
+hint = """
+Rust has more than one type of struct. Both variants are used to package related data together.
+On the one hand, there are normal, or classic, structs. These are named collections of related data stored in fields.
+The other variant is tuple structs. Basically just named tuples.
+In this exercise you need to implement one of each kind.
+
+Read more about structs in The Book: https://doc.rust-lang.org/stable/book/ch05-00-structs.html"""
 
 [[exercises]]
 name = "structs2"
 path = "exercises/structs/structs2.rs"
 mode = "test"
-hint = "No hints this time ;)"
+hint = """
+Creating instances of structs is easy, all you need to do is assign some values to its fields. 
+There is however some shortcuts that can be taken when instantiating structs. 
+Have a look in The Book, to find out more: https://doc.rust-lang.org/stable/book/ch05-01-defining-structs.html#creating-instances-from-other-instances-with-struct-update-syntax"""
+
+[[exercises]]
+name = "structs3"
+path = "exercises/structs/structs3.rs"
+mode = "test"
+hint = """
+The new method needs to panic if the weight is physically impossible :), how do we do that in Rust?
+
+For is_international: What makes a package international? Seems related to the places it goes through right?
+
+For calculate_transport_fees: Bigger is more expensive usually, we don't have size, but something may fit the bill here :)
+
+Have a look in The Book, to find out more about method implementations: https://doc.rust-lang.org/book/ch05-03-method-syntax.html"""
 
 # STRINGS
 
@@ -233,8 +280,8 @@ string slice instead of a `String`, wouldn't it?? There is a way to add one char
 # TEST 2
 
 [[exercises]]
-name = "test2"
-path = "exercises/test2.rs"
+name = "quiz2"
+path = "exercises/quiz2.rs"
 mode = "compile"
 hint = "No hints this time ;)"
 
@@ -296,8 +343,8 @@ can negate the result of what you're doing using `!`, like `assert!(!having_fun(
 # TEST 3
 
 [[exercises]]
-name = "test3"
-path = "exercises/test3.rs"
+name = "quiz3"
+path = "exercises/quiz3.rs"
 mode = "test"
 hint = "No hints this time ;)"
 
@@ -367,8 +414,8 @@ The way macros are written, it wants to see something between each
 # TEST 4
 
 [[exercises]]
-name = "test4"
-path = "exercises/test4.rs"
+name = "quiz4"
+path = "exercises/quiz4.rs"
 mode = "test"
 hint = "No hints this time ;)"
 
@@ -476,7 +523,7 @@ mode = "test"
 hint = """
 First hint: To figure out what type should go where the ??? is, take a look
 at the test helper function `test_with_str`, since it returns whatever
-`read_and_validate` returns and`test_with_str` has its signature fully
+`read_and_validate` returns and `test_with_str` has its signature fully
 specified.
 
 
@@ -514,13 +561,15 @@ name = "option1"
 path = "exercises/option/option1.rs"
 mode = "compile"
 hint = """
-Check out some functions of Option:
+Hint 1: Check out some functions of Option:
 is_some
 is_none
 unwrap
 
 and:
 pattern matching
+
+Hint 2: There are no sensible defaults for the value of an Array; the values need to be filled before use.
 """
 
 [[exercises]]
@@ -564,6 +613,24 @@ hint = """
 `for` loops over Option values are more clearly expressed as an `if let`"""
 
 # STANDARD LIBRARY TYPES
+
+[[exercises]]
+name = "box1"
+path = "exercises/standard_library_types/box1.rs"
+mode = "test"
+hint = """
+Step 1
+The compiler's message should help: since we cannot store the value of the actual type
+when working with recursive types, we need to store a reference (pointer) to its value.
+We should, therefore, place our `List` inside a `Box`. More details in the book here:
+https://doc.rust-lang.org/book/ch15-01-box.html#enabling-recursive-types-with-boxes
+
+Step 2
+Creating an empty list should be fairly straightforward (hint: peek at the assertions).
+For a non-empty list keep in mind that we want to use our Cons "list builder".
+Although the current list is one of integers (i32), feel free to change the definition
+and try other types!
+"""
 
 [[exercises]]
 name = "arc1"
@@ -615,10 +682,10 @@ name = "iterators4"
 path = "exercises/standard_library_types/iterators4.rs"
 mode = "test"
 hint = """
-In an imperative language you might write a for loop to iterate through
-multiply the values into a mutable variable. Or you might write code more
-functionally with recursion and a match clause. But you can also use ranges
-and iterators to solve this in rust."""
+In an imperative language, you might write a for loop that updates 
+a mutable variable. Or, you might write code utilizing recursion 
+and a match clause. In Rust you can take another functional
+approach, computing the factorial elegantly with ranges and iterators."""
 
 # TRAITS
 
@@ -657,8 +724,10 @@ name = "generics2"
 path = "exercises/generics/generics2.rs"
 mode = "test"
 hint = """
-Think carefully about what we need to do here. Currently we are wrapping only values of
-type 'u32'. Maybe we need to update the explicit references to this data type somehow?
+Currently we are wrapping only values of type 'u32'. 
+Maybe we could update the explicit references to this data type somehow?
+
+If you are still stuck https://doc.rust-lang.org/stable/book/ch10-01-syntax.html#in-method-definitions
 """
 
 [[exercises]]
@@ -735,7 +804,7 @@ name = "try_from_into"
 path = "exercises/conversions/try_from_into.rs"
 mode = "test"
 hint = """
-Follow the steps provided right before the `From` implementation.
+Follow the steps provided right before the `TryFrom` implementation.
 You can also use the example at https://doc.rust-lang.org/std/convert/trait.TryFrom.html"""
 
 [[exercises]]
@@ -750,5 +819,6 @@ name = "from_str"
 path = "exercises/conversions/from_str.rs"
 mode = "test"
 hint = """
-If you've already solved try_from_into.rs, then this is almost a copy-paste.
-Otherwise, go ahead and solve try_from_into.rs first."""
+The implementation of FromStr should return an Ok with a Person object,
+or an Err with a string if the string is not valid.
+This is almost like the `try_from_into` exercise."""

@@ -15,10 +15,15 @@ fn main() {
     let mut numbers: [Option<u16>; 5] = [Some(0);5];
     for iter in 0..5  {
         let number_to_add: u16 = {
-            ((iter * 5) + 2) / (4 * 16)
+            ((iter * 1235) + 2) / (4 * 16)
         };
+<<<<<<< HEAD
         
        
         numbers[iter as usize] = Some(number_to_add);
+=======
+
+        numbers[iter as usize] = number_to_add;
+>>>>>>> 9f61db5dbe38538cf06571fcdd5f806e7901e83a
     }
 }
